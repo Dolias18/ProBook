@@ -1,0 +1,28 @@
+/*Configurações*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: SF;
+}
+@font-face {
+    font-family: SF;
+    src: url(../fonts/SF-Pro-Display-Regular.otf);
+}
+:root{
+    --main-color: #0F0F0F;
+    --secundary-color: #FF9900;
+    --text-color: white;
+}
+body{
+    background-color: #0F0F0F;
+}
+a, p{
+    color: var(--text-color);
+    font-size: 18px;
+}
+h1{
+    color: var(--secundary-color);
+}

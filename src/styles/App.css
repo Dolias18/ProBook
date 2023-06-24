@@ -1,0 +1,63 @@
+/*Header*/
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.logo-header{
+    font-size: 36px;
+}
+
+/*Main*/
+#content-home{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-main{
+    font-size: 64px;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 23px;
+    border: 2px solid #FF9900;
+    color: white;
+    width: 135px;
+    height: 40px;
+    margin: 26px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.btn:hover{
+    border: 2px solid white;
+    color: #FF9900;
+    transition: 0.8s;
+}
+
+/*Footer*/
+footer{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+footer p{
+    color: rgb(151, 151, 151);
+}
+footer a{
+    color: #FF9900;
+}
+
+@media screen and (max-width: 480px) {
+    #content-home p{
+        width: 90%;
+        text-align: center;
+    }
+}
