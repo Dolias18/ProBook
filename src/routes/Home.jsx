@@ -1,25 +1,27 @@
-import '../styles/App.css'
-import '../styles/index.css'
-import { useState } from 'react'
+import React from 'react';
+import '../styles/Home.css';
+import '../styles/index.css';
 
-function App() {  
+import BtnCad from '../components/BtnCad';
+import BtnLogin from '../components/BtnLogin';
+
+function Home() {
 
   return (
     <div id="container">
-  
       <header id="navbar">
         <section className="logo">
           <h1 className="logo-header">PB</h1>
         </section>
         <section className="content-text">
-          <a href="">Login</a>
+          <BtnLogin />
         </section>
       </header>
 
       <main id='content-home'>
         <h1 className='title-main'>ProBook</h1>
         <p>Portfolio Construído By Mateus Paz e Elias Santos.</p>
-        <button className='btn'>Seja PRO</button>
+        <button className='btn'><BtnCad /></button>
       </main>
 
       <footer>
@@ -27,9 +29,8 @@ function App() {
         <p>&copy; Elias e Mateus Created Jun/2023.</p>
         <a href="">GitHub: Mateus Paz</a>
       </footer>
-
     </div>
   )
 }
 
-export default App
+export default Home
