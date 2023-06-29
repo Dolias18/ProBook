@@ -7,6 +7,7 @@ function Cadastro() {
   return (
     <div id="container">
       <header id="navbar">
+        <section></section>
         <section className="logo">
           <h1 className="logo-header">ProBook</h1>
         </section>

@@ -1,8 +1,6 @@
 /*Header*/
 #navbar{
     display: flex;
-    padding: 15px;
-    justify-content: space-between;
     align-items: center;
 }
 .logo-header{
