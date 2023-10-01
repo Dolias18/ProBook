@@ -2,13 +2,24 @@ import React from 'react';
 import '../styles/Home.css';
 import '../styles/index.css';
 
+import axios from 'axios';
+
 import BtnCad from '../components/BtnCad';
 import BtnLogin from '../components/BtnLogin';
 
+import ReactRoxo from '../images/react_roxo.png'
+import { useNavigate } from "react-router-dom";
+
 function Home() {
+  const history = useNavigate();
+
+  const handleClick = () => {
+    history("/cadastro");
+  }
 
   return (
     <div id="container">
+
       <header id="navbar">
         <section className="logo">
           <h1 className="logo-header">PB</h1>

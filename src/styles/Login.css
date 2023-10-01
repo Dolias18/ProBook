@@ -1,16 +1,39 @@
-/*Header*/
-#navbar{
+.navbar {
     display: flex;
-    padding: 15px;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    padding: 1rem;
 }
+
+.logo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.content-text {
+    position: absolute;
+}
+
 .logo-header{
-    font-size: 36px;
+    font-size: 2rem;
 }
+
+
+/* #logo {
+    justify-self: center;
+}
+
+#sejaPro {
+    justify-self: right;
+} */
+
+/* .logo-header{
+    font-size: 36px;
+} */
 .content-text a:hover{
     color: #FF9900;
 }
+
 
 /*Main*/
 #container-login{

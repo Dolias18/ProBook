@@ -6,7 +6,7 @@ import '../styles/index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from '../routes/Home';
 import Cadastro from '../routes/Cadastro';
-import Login from '../routes/login';
+import Login from '../routes/Login';
 
 const router = createBrowserRouter([
   {
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "login",
-    element: <Login />,
+    element: <Login/>,
   },
 ]);
 

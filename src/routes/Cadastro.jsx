@@ -3,6 +3,8 @@ import '../styles/index.css';
 import '../styles/Cadastro.css';
 import BtnLogin from '../components/BtnLogin';
 
+import InputComLabel from '../components/InputComLabel';
+
 function Cadastro() {
   return (
     <div id="container">
@@ -21,15 +23,16 @@ function Cadastro() {
 
         <section className='container-form'>
           <section className="card-input">
-            <div className="content-input">
-              <label>Nome Completo:</label>
-              <input type="text" placeholder="Leonardo Santana" />
-            </div>
-
-            <div className="content-input">
-              <label>Senha:</label>
-              <input type="text" placeholder="leonardo12345" />
-            </div>
+            <InputComLabel
+              type="text"
+              placeholder="Leonardo Santana"
+              label="Nome Completo:"
+            />
+            <InputComLabel
+              type="text"
+              placeholder="leonardo12345"
+              label="Senha:"
+            />
           </section>
 
           <section className="card-input">

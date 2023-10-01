@@ -2,17 +2,18 @@ import React from 'react';
 import '../styles/index.css';
 import '../styles/Login.css';
 import BtnCad from '../components/BtnCad';
-
+import BotaoAcao from '../components/BotaoAcao';
 
 function Login() {
   return (
     <div id="container">
-      <header id="navbar">
+      <header className="navbar">
         <section className="logo">
-          <h1 className="logo-header">ProBook</h1>
+          <h1 className='logo-header' >ProBook</h1>
         </section>
-        <section className="content-text">
+        <section id="sejaPro" className="content-text">
             <BtnCad/>
+            <BotaoAcao rota="/cadastro" titulo="Elias" />
         </section>
       </header>
 
